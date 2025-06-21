@@ -69,7 +69,7 @@ function App() {
       <label htmlFor="bunga" className="block">Bunga (%):</label>
       <input type="number" id="bunga" placeholder="Misal: 14" value={bunga} onChange={(e) => setBunga(e.target.value)} className="w-full p-2 my-2 border" />
 
-      <button onClick={hitungAngsuran} className="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Hitung Angsuran</button>
+      <button onClick={hitungAngsuran} className="mt-4 px-4 py-2 bg-blue-600 text-white rounded cursor-pointer">Hitung Angsuran</button>
 
       <div className="result font-bold whitespace-pre-line mt-6">{hasil}</div>
 
